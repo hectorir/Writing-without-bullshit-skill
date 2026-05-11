@@ -1,5 +1,7 @@
 # Writing Without Bullshit — a Claude skill
 
+[![skills.sh](https://skills.sh/b/hectorir/Writing-without-bullshit-skill)](https://skills.sh/hectorir/Writing-without-bullshit-skill)
+
 A Claude skill that helps you draft and review business prose using Josh Bernoff's *Writing Without Bullshit* methodology. It auto-triggers when you ask Claude to write or review emails, blog posts, reports, social posts, press releases, or marketing copy.
 
 ## What it does
