@@ -12,12 +12,20 @@ A Claude skill that helps you draft and review business prose using Josh Bernoff
 
 ## Install
 
-Copy the `writing-without-bullshit/` directory into your Claude skills directory. The skill auto-triggers based on its frontmatter description; no further configuration required.
+The fastest path is the `skills` CLI, which places the skill in the right directory for any compatible agent:
 
 ```bash
-# Example install path may differ on your system
-cp -r writing-without-bullshit ~/.claude/skills/
+npx skills add hectorir/Writing-without-bullshit-skill
 ```
+
+Or install manually by cloning into your Claude skills directory:
+
+```bash
+git clone https://github.com/hectorir/Writing-without-bullshit-skill.git \
+  ~/.claude/skills/writing-without-bullshit
+```
+
+The skill auto-triggers based on its frontmatter description; no further configuration required.
 
 ## Example prompts that activate it
 
