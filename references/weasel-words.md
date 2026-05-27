@@ -1,10 +1,10 @@
 # Weasel Words — Starter List
 
-A built-in list of low-information words and phrases. The meaning-ratio check loads this file, scans the prose, and flags every match. Treat it as a starting point, not a closed set.
+Built-in list of low-info words + phrases. Meaning-ratio check loads this, scans prose, flags every match. Starting point, not closed set.
 
 ## Qualifiers
 
-These sound like content but say nothing measurable. Replace each with a number, a named subgroup, or the bold claim itself.
+Sound like content but say nothing measurable. Replace with number, named subgroup, or bold claim.
 
 - very
 - leading
@@ -29,7 +29,7 @@ These sound like content but say nothing measurable. Replace each with a number,
 
 ## Filler phrases
 
-Stretchers that pad sentences without adding meaning. Cut them entirely.
+Pad sentences without meaning. Cut entirely.
 
 - across the landscape
 - at the end of the day
@@ -46,7 +46,7 @@ Stretchers that pad sentences without adding meaning. Cut them entirely.
 
 ## Hedges
 
-Mark uncertainty without committing to it. Either name the actual uncertainty or drop the hedge.
+Mark uncertainty without committing. Name actual uncertainty or drop hedge.
 
 - it should be noted
 - arguably
@@ -61,11 +61,11 @@ Mark uncertainty without committing to it. Either name the actual uncertainty or
 
 ## Beyond the list
 
-This is a starter list. Also flag:
+Also flag:
 
-- Domain-specific jargon any non-expert reader would not understand
-- Buzzwords that signal in-group membership without conveying meaning (e.g., "synergy," "leverage" as a verb, "operationalize")
-- Empty intensifiers Claude judges to be context-specific filler
-- Adjectives that survive a "show, don't tell" test only by stating the conclusion the prose should be earning
+- Jargon non-expert reader wouldn't understand
+- Buzzwords signaling in-group membership without meaning (e.g., "synergy," "leverage" as verb, "operationalize")
+- Empty intensifiers Claude judges context-specific filler
+- Adjectives surviving "show, don't tell" only by stating the conclusion prose should earn
 
-When in doubt, ask: would the sentence lose meaning if this word were removed? If no, remove it.
+In doubt → would sentence lose meaning without this word? If no → remove.

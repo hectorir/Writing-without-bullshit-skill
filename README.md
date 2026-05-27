@@ -2,32 +2,32 @@
 
 [![skills.sh](https://skills.sh/b/hectorir/Writing-without-bullshit-skill)](https://skills.sh/hectorir/Writing-without-bullshit-skill)
 
-A Claude skill that helps you draft and review business prose using Josh Bernoff's *Writing Without Bullshit* methodology. It auto-triggers when you ask Claude to write or review emails, blog posts, reports, social posts, press releases, or marketing copy.
+Claude skill for drafting + reviewing business prose using Bernoff's *Writing Without Bullshit*. Auto-triggers for emails, blog posts, reports, social posts, press releases, marketing copy.
 
 ## What it does
 
-- **Pre-draft ROAM check** — Readers, Objective, Action, iMpression. Inferred for short pieces, asked for long ones.
+- **Pre-draft ROAM check** — Readers, Objective, Action, iMpression. Inferred for short, asked for long.
 - **10 line-edit habits** applied while drafting (write short, front-load, purge passive, replace jargon, kill weasel words, be direct, use numbers wisely, reveal structure, cut cheery filler, earn every title).
-- **Meaning-ratio diagnosis** with a built-in low-info word list plus Claude judgment for context-specific jargon.
+- **Meaning-ratio diagnosis** — built-in low-info word list + Claude judgment for context jargon.
 - **30-second self-check** before any draft ships.
-- **Format playbooks** for email, blog, report, and social/press — loaded only when the format is detected.
+- **Format playbooks** for email, blog, report, social/press — loaded when format detected.
 
 ## Install
 
-The fastest path is the `skills` CLI, which places the skill in the right directory for any compatible agent:
+`skills` CLI places skill in right directory for any compatible agent:
 
 ```bash
 npx skills add hectorir/Writing-without-bullshit-skill
 ```
 
-Or install manually by cloning into your Claude skills directory:
+Or manually:
 
 ```bash
 git clone https://github.com/hectorir/Writing-without-bullshit-skill.git \
   ~/.claude/skills/writing-without-bullshit
 ```
 
-The skill auto-triggers based on its frontmatter description; no further configuration required.
+Auto-triggers from frontmatter; no config needed.
 
 ## Example prompts that activate it
 
@@ -37,18 +37,18 @@ The skill auto-triggers based on its frontmatter description; no further configu
 - "Rewrite this LinkedIn post — it's too long."
 - "I need a press release announcing the Series B."
 
-When triggered, the skill applies ROAM, the 10 habits, and the matching format playbook automatically. For diagnostic requests, it returns a scorecard, an issue list mapped to the 10 habits, and a clean rewrite.
+Triggered → skill applies ROAM, 10 habits, matching playbook. Diagnostic → scorecard, issue list (mapped to 10 habits), clean rewrite.
 
 ## What it skips
 
-Code, code comments, commit messages, technical specifications. The methodology is for prose communication.
+Code, comments, commits, tech specs. Methodology is for prose.
 
 ## Attribution
 
-Derivative practical tool based on Josh Bernoff's *Writing Without Bullshit: Boost Your Career by Saying What You Mean* (HarperBusiness, 2016). The methodology — ROAM, the 10 habits, the meaning ratio, the self-check, the format playbooks — is Bernoff's. This skill operationalizes it for use inside Claude. The original book is the canonical reference and is well worth reading in full.
+Derivative tool based on Bernoff's *Writing Without Bullshit* (HarperBusiness, 2016). ROAM, 10 habits, meaning ratio, self-check, format playbooks — all Bernoff's. Operationalized for Claude. Original is canonical.
 
 Book: https://www.amazon.com/Writing-Without-Bullshit-Boost-Career/dp/0062477153
 
 ## License
 
-MIT for the skill structure and code. Methodology credit belongs to Josh Bernoff.
+MIT (structure + code). Methodology credit: Bernoff.
