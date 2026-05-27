@@ -1,8 +1,8 @@
 # Report / Long-Form Playbook
 
-Loaded when the format is report, white paper, memo, brief, or analysis. Apply alongside the 10 line-edit habits in `SKILL.md`.
+Loaded for: report, white paper, memo, brief, analysis. Apply alongside 10 habits in `SKILL.md`.
 
-Reports are the format where Bernoff's discipline matters most, because the cost of waste compounds: every reader pays for every wasted word.
+Format where Bernoff's discipline matters most — cost of waste compounds: every reader pays for every wasted word.
 
 ## ROAM target sentence
 
@@ -10,7 +10,7 @@ Before drafting:
 
 > *After reading this, [decision-makers] will [understand what is happening], so they will [make a specific better-informed decision] and think of me as [a valuable source of analysis].*
 
-Pin this where you can see it. If the analysis drifts, return to the target sentence.
+Pin it. Analysis drifts → return to target sentence.
 
 ## The story arc
 
@@ -20,7 +20,7 @@ Every report tells a story:
 2. **Analysis** — what you found and how
 3. **Resolution** — conclusions and recommendations
 
-Readers expect this shape. Inverting or skipping parts costs comprehension.
+Readers expect this shape. Inverting/skipping costs comprehension.
 
 ## Anatomy
 
@@ -28,28 +28,28 @@ In order:
 
 ### 1. Title and subtitle
 
-Memorable, descriptive, search-friendly. Revise repeatedly. The title is more important than the rest of the document combined; if the reader sees only the title, have you told them something useful?
+Memorable, descriptive, search-friendly. Revise repeatedly. Title > rest of doc combined; reader sees only title → told them something useful?
 
 - ✅ "Q3 Hiring Slowdown: Three Bottlenecks and What To Do"
 - ❌ "Quarterly Hiring Report"
 
 ### 2. Executive summary
 
-Same story as the full report, told briefly, with the most intriguing tidbits in.
+Same story as full report, brief, with most intriguing tidbits.
 
-**Write the executive summary fresh at the end of every draft.** It is not a section-by-section recap. It is the one section a busy reader will actually read end to end. Treat it as the report's most important paragraph.
+**Write executive summary fresh at end of every draft.** Not a section-by-section recap. One section a busy reader reads end to end. Most important paragraph.
 
-A working test: if a senior leader reads only the executive summary, do they know what to decide?
+Working test: senior leader reads only exec summary → do they know what to decide?
 
 ### 3. Setup
 
-The problem and why it matters. Frame it from the reader's perspective: what changes for them if this report is right?
+Problem + why it matters. Frame from reader's perspective: what changes if report is right?
 
-Include the scope of the analysis (what's in, what's out) and the methodology only briefly here — full methodology lives in end matter.
+Include scope (what's in, what's out) + methodology briefly — full methodology in end matter.
 
 ### 4. Analysis
 
-The longest section, and the one most prone to bloat. Make it skimmable:
+Longest section, most prone to bloat. Make skimmable:
 
 - **Short sections** with descriptive headings (a reader scanning headings should pick up the argument)
 - **Bullets with bolded openers** for parallel findings
@@ -58,13 +58,13 @@ The longest section, and the one most prone to bloat. Make it skimmable:
 - **Case studies** to ground abstract claims
 - **Sidebars** for tangents that matter but interrupt the flow
 
-Plan graphics while outlining, not at the end. Each graphic needs a caption that states the takeaway, not just the title of the chart.
+Plan graphics while outlining. Each graphic needs caption stating takeaway, not just chart title.
 
 ### 5. Conclusions and recommendations
 
-Tell the reader what to do.
+Tell reader what to do.
 
-**Do not hedge here.** This is the section that justifies the report's existence. If you cannot state recommendations clearly, the analysis is incomplete.
+**No hedging.** Section that justifies report's existence. Can't state recommendations clearly → analysis incomplete.
 
 Format:
 
@@ -72,17 +72,17 @@ Format:
 - **Conclusion 2.** Same shape.
 - **Recommendation 1.** What to do, by when, and who owns it.
 
-If recommendations are conditional, state the condition explicitly. ("If revenue holds above $X, do A; if it slips, do B.")
+Conditional recommendations → state condition explicitly. ("If revenue holds above $X, do A; if it slips, do B.")
 
 ### 6. End matter
 
-Footnotes, methodology, bibliography, raw data, anything tedious that supports the analysis but would clog the body. Keep it tidy and reachable; readers who want to verify your work will go here.
+Footnotes, methodology, bibliography, raw data — supports analysis without clogging body. Keep tidy + reachable; readers verifying work go here.
 
 ## Common failure modes
 
 - **No executive summary** — readers bounce.
-- **Executive summary that recaps sections** instead of telling the same story briefly. Rewrite from scratch.
-- **Hedged recommendations** — "more research is needed" is sometimes true and almost always lazy.
-- **Graphics as afterthought** — bolted on at the end, with captions like "Chart 3: Sales by region." Plan them with the outline.
-- **Buried numbers** — the most important statistic appears on page 14. Pull it forward.
-- **Bloat** — every section feels obligated to be long. Cut ruthlessly. A 12-page report that reads is worth more than a 40-page report that doesn't.
+- **Exec summary recaps sections** instead of brief story. Rewrite from scratch.
+- **Hedged recommendations** — "more research is needed" sometimes true, almost always lazy.
+- **Graphics as afterthought** — bolted on at end, captions like "Chart 3: Sales by region." Plan with outline.
+- **Buried numbers** — most important stat on page 14. Pull forward.
+- **Bloat** — every section feels obligated to be long. Cut ruthlessly. 12-page report that reads > 40-page that doesn't.
