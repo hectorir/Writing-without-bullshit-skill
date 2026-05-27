@@ -1,8 +1,8 @@
 # Social Posts, Press Releases, and Marketing Copy
 
-Loaded when the format is a social post (Facebook, X, LinkedIn, Instagram), a DM, a press release, or a marketing / product page. Apply alongside the 10 line-edit habits in `SKILL.md`.
+Loaded for: social post (Facebook, X, LinkedIn, Instagram), DM, press release, marketing/product page. Apply alongside 10 habits in `SKILL.md`.
 
-Three distinct sub-formats share this file because they share one rule: brevity is mandatory and the first words do all the work.
+Three sub-formats share one rule: brevity mandatory, first words do all work.
 
 ---
 
@@ -23,41 +23,41 @@ Three distinct sub-formats share this file because they share one rule: brevity 
 
 ### Cross-platform rules
 
-- **Front-load every post.** The first sentence is the post.
-- **Include a graphic.** Even a simple one. Visual posts outperform text-only on every platform.
-- **Post regularly.** A few times a week minimum. Sporadic accounts decay.
-- **Share useful things.** Self-promotion is allowed when earned by a track record of usefulness, not before.
-- **Listen and respond.** Engagement is the medium, not just an output.
+- **Front-load every post.** First sentence is post.
+- **Include graphic.** Even simple. Visual posts outperform text-only on every platform.
+- **Post regularly.** Few times/week minimum. Sporadic accounts decay.
+- **Share useful things.** Self-promo allowed after track record of usefulness, not before.
+- **Listen and respond.** Engagement is medium, not just output.
 
 ### Cold DM rules
 
-When you don't have someone's email, social DMs work — but keep them tight:
+No email → social DMs work. Keep tight:
 
 1. Identify yourself in one line
 2. State the ask plainly
 3. Invite a response
 
-Long elaborate DMs get ignored. The cold-email rules in `email.md` apply, compressed.
+Long DMs get ignored. Cold-email rules in `email.md` apply, compressed.
 
 ---
 
 ## Press release
 
-The traditional press release is mostly waste. Modernize it.
+Traditional press release = mostly waste. Modernize it.
 
 ### Rules
 
-- **Write directly in the spokesperson's voice.** Stilted third-person ("Acme Corp announced today that its CEO is pleased to…") sounds fake and gets edited out by anyone who reuses the text.
-- **Put the news in the title, plainly.** No teaser headlines.
+- **Spokesperson's voice.** Stilted third-person ("Acme Corp announced today…") sounds fake, gets edited out.
+- **News in title, plainly.** No teasers.
   - ✅ "Acme acquires Beta for $40M to enter the European logistics market"
   - ❌ "Acme makes major announcement about future direction"
-- **Explain what you did and why it matters.** Two paragraphs, three at most.
-- **Use facts and numbers.** Cite sources and dates. Cut superlatives ("industry-leading," "world-class," "robust").
-- **Make it conversational.** Press picks up text people will actually share.
+- **Explain what + why it matters.** Two paras, three at most.
+- **Facts + numbers.** Cite sources + dates. Cut superlatives ("industry-leading," "world-class," "robust").
+- **Make it conversational.** Press picks up text people share.
 
 ### Common failure modes
 
-- Burying the news under three paragraphs of company background
+- News buried under 3 paras of company background
 - Quotes that no human would say out loud
 - Adjective stacks: "industry-leading, best-in-class, next-generation platform"
 - No specific numbers or dates
@@ -66,21 +66,21 @@ The traditional press release is mostly waste. Modernize it.
 
 ## Marketing pages and product pages
 
-The web page version of the same discipline.
+Web page version of same discipline.
 
 ### Rules
 
-- **Keep them short.** Long product pages do not convert; they exhaust.
-- **Use "we" and "you."** "We help you ship faster" beats "Solution X enables organizations to accelerate delivery cycles."
+- **Keep short.** Long product pages don't convert; they exhaust.
+- **Use "we" + "you."** "We help you ship faster" beats "Solution X enables organizations to accelerate delivery cycles."
 - **Bullets and graphics, not walls of prose.** Scanners outnumber readers.
-- **Link to specs rather than dumping them in.** Specs belong on a /specs page.
-- **Lead with the value, not the mechanism.** Readers care what changes for them; how it works comes after.
+- **Link to specs, don't dump them in.** Specs belong on a /specs page.
+- **Value before mechanism.** Readers care what changes for them; how it works comes after.
 
 ### A good page shape
 
 1. One-sentence value proposition (front-loaded, specific)
-2. Three to five proof points as bullets with bolded openers
+2. 3–5 proof points as bullets w/ bolded openers
 3. One concrete example or screenshot
-4. Call to action (sign up, request demo, read docs) — one primary, optional secondary
+4. CTA (sign up, request demo, read docs) — one primary, optional secondary
 
-If your page has more than this, ask which sections you would delete if you had to cut half the words. Then delete them.
+More than this → ask which sections you'd delete if cutting half. Delete them.
