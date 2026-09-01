@@ -1,45 +1,58 @@
 ---
 name: writing-without-bullshit
-description: Use drafting/reviewing prose: emails, blog posts, reports, announcements, press releases, social posts, marketing copy. Applies ROAM before drafting, 10 line-edit habits during writing, meaning-ratio diagnosis, 30-sec self-check. Skip: code, comments, commits, tech specs.
+description: Use when the user asks to draft, write, reply to, tighten, edit, review, or rewrite prose meant for another person, including emails, replies, blog posts, articles, reports, memos, announcements, press releases, social posts, and marketing or web copy. Not for code, code comments, commit messages, or technical specs.
 ---
 
 # Writing Without Bullshit
 
-Operationalizes Bernoff's *Writing Without Bullshit*. Use when user drafts prose or shares prose for review/tightening.
+Operationalizes Bernoff's *Writing Without Bullshit*.
 
 ## The Iron Imperative
 
 **Treat the reader's time as more valuable than your own.**
 
-Every tactic downstream of this rule. Foggy subject line, buried lead, hedged claim, jargon — all save writer effort at reader's expense. Spend 5 min so 100 readers don't each spend 2.
+Every tactic downstream of this rule. Foggy subject line, buried lead, hedged claim, jargon, invented statistic — all save writer effort at reader's expense.
+
+---
+
+## Output contract
+
+The response **is** the deliverable. Three shapes.
+
+**Draft request → the draft.** Subject line or title (when format has one), then body. Nothing above. Nothing below. Unknown fact → bracketed placeholder inside the draft: `[X%]`, `[date]`, `[episode you've actually heard]`.
+
+**Review request → the edited text.** Same shape. Edited text only.
+
+**Long-tier request with missing ROAM → one question.** No draft in that message.
+
+User asks for notes or options in the same message → after the draft, brief. Otherwise ROAM target, scorecard, issues list, weasel flags, and full rewrite are follow-ups only (see On request only).
 
 ---
 
 ## ROAM — before drafting
 
-Beyond a one-line reply, answer:
+Answer silently before writing:
 
 - **Readers** — Who specifically? Picture one real person.
 - **Objective** — What change in their thinking?
 - **Action** — What do you want them to *do* after reading?
 - **iMpression** — What should they think of you?
 
-Then state the target sentence:
+Target sentence, held in mind, never printed:
 
 > *After reading this, [readers] will realize [objective], so they will [action] and think of me as [impression].*
 
-Can't write it → piece not ready.
-
 ### Tiered gate
 
-**Short tier** — quick replies, casual notes, <250 words.
-- Infer ROAM from request + context.
-- Print target sentence at top of draft.
+**Micro** — reply under ~40 words, "say yes," "decline politely." Skip ROAM. Habits 2, 3, 9. Send.
 
-**Long tier** — blog, report, announcement, press release, >250 words.
-- Ask user for any R/O/A/M not stated.
-- Phrase: "I have [R, M] but need O and A — change in thinking? action?"
-- Wait for answer, then draft.
+**Short** — replies, notes, <250 words. Infer ROAM. Draft.
+
+**Long** — blog, report, announcement, press release, >250 words. Any R/O/A/M not stated → ask once, one message, every missing part with a best guess so user can answer "yes." Same message asks for facts the draft needs. Shape:
+
+> "Before I draft: Readers = [guess]? Objective = [guess]? Action = [guess]? Confirm or correct, and send any numbers, names, or reasons you want in it."
+
+Wait. Then draft.
 
 ---
 
@@ -49,8 +62,21 @@ On load, decide mode + format.
 
 ### Mode
 
-- **Generative** — request contains "draft / write / compose / send / publish / post" or asks for new prose.
-- **Diagnostic** — user pasted prose and asked for review, edit, critique, fix, rewrite, or tightening.
+- **Draft** — "draft / write / compose / reply / send / post" or any ask for new prose.
+- **Light edit** — "tighten / trim / edit / fix / shorten / clean up / polish / proofread," any other review verb, or prose pasted with no verb.
+- **Full rewrite** — "rewrite / redo / overhaul / restructure / go harder," or a light edit already delivered and user asks for more.
+
+### What a light edit is
+
+Keeps: author's voice, register, paragraph order, sentence order, their word choices for anything that isn't bullshit, their facts, their sign-off. Length ≤ original.
+
+Changes: cut weasel words, filler, hedges, cheery filler, AI tells; fix passives with a clear actor; move a buried ask or decision to the first sentence; supply a subject line that carries the ask when one is missing.
+
+Leaves alone: structure (no new lists or headings), content (nothing added), facts, tone.
+
+### What a full rewrite is
+
+Every habit plus the format playbook. Restructure freely, re-title, front-load, bullets with bolded openers, one topic per email. Facts stay the author's. Nothing invented.
 
 ### Format
 
@@ -74,7 +100,7 @@ Ambiguous format → ask once:
 
 Apply roughly in order.
 
-1. **Write Short.** email <250, blog <750, mgr-to-staff <400. Try deleting first sentence; if works, delete second.
+1. **Write Short.** email <250, cold email <150, blog <750, mgr-to-staff <400. Try deleting first sentence; if works, delete second.
 
 2. **Front-Load.** Conclusion first, reasoning after. Reader stops at 20 words → main message already landed.
    - ✅ "Approve the $40K hiring req by Friday so we can post the role Monday."
@@ -86,103 +112,55 @@ Apply roughly in order.
 
 4. **Replace Jargon.** 3 legit uses: terms every reader knows; legal/technical required; terms you define + reuse. Picture avg reader, not smartest.
 
-5. **Eliminate Weasel Words.** Replace qualifiers (very, leading, robust, growing, considerable) with number, named subgroup, or bold claim.
-   - ✅ "29% revenue growth" — "engineers in our Boston office"
-   - ❌ "significant growth" — "many engineers"
+5. **Eliminate Weasel Words.** Replace qualifiers (very, leading, robust, growing, considerable) with number, named subgroup, or bold claim. No number in hand → `[X%]` placeholder. **Never invent a figure, date, name, source, or quote.** A plausible fake number is the worst bullshit in the book.
+   - ✅ "29% revenue growth" — "engineers in our Boston office" — "[N]% revenue growth"
+   - ❌ "significant growth" — "many engineers" — a number the user never gave you
 
 6. **Be Direct — use I, you, we.** Can't write "you" → don't know audience yet. "I" takes responsibility instead of hiding behind passives.
 
-7. **Use Numbers Wisely.** Always provide context (470-pt Dow drop meaningless without %). Cite source + date. Cap at 3 sig digits. Beware causation. Stress-test with dissenter.
+7. **Use Numbers Wisely.** Numbers come from the user or their source material, nowhere else. Always provide context (470-pt Dow drop meaningless without %). Cite source + date. Cap at 3 sig digits. Beware causation.
 
-8. **Reveal Structure.** Headings (max 2 levels), bullets w/ **bolded openers**, numbered lists for sequence, tables for parallel data, simple graphics. Emails too, not just reports.
+8. **Reveal Structure.** Headings (max 2 levels), bullets w/ **bolded openers** that add rather than echo, numbered lists for sequence, tables for parallel data. Emails too, not just reports. Light edit → leave structure as found.
 
-9. **Cut Cheery Filler.** "Have a great day," "Hope this finds you well," "Don't hesitate to reach out" — soothe writer, not reader. Get to point, sign off.
+9. **Cut Cheery Filler and AI Tells.** "Hope this finds you well," "Don't hesitate to reach out," "Happy to adjust" — soothe writer, not reader. Same for em-dash glue, "it's not X, it's Y," forced triplets, announced structure (list in `references/weasel-words.md`). Get to point, sign off.
 
-10. **Earn Every Title and Subject Line.** More important than rest combined. Spend disproportionate time. Reader sees only this → did it communicate something useful?
+10. **Earn Every Title and Subject Line.** More important than rest combined. Reader sees only this → did it communicate something useful?
     - ✅ "July sales exceed quotas by 20%"
     - ❌ "Some thoughts I had today"
 
 ---
 
-## Meaning ratio
-
-Diagnostic for low-information density.
-
-**Rule:** bold every word carrying no real info — qualifiers, filler, jargon no non-expert uses. >30% bolded → rewrite.
-
-### How to run the check
-
-1. Load `references/weasel-words.md`.
-2. Scan prose. Flag every word/phrase matching a category (qualifiers, filler, hedges).
-3. Add Claude-judgment flags: domain jargon, empty intensifiers, buzzwords not on list.
-4. Compute: `meaning ratio = 1 − (low-info words / total words)`.
-
-### Output format
-
-```
-Meaning ratio: 78%  (target: ≥70%)
-Low-info words flagged: 12
-```
-
-Short enough prose → show with low-info words **bolded**.
-
----
-
 ## The 30-second self-check
 
-Run before declaring draft done. Diagnostic mode → render ✓ / ✗.
+Run silently before sending. Render ✓/✗ only when scorecard is requested.
 
 1. Reader's time treated as more valuable than mine?
 2. Subject/title carries main message?
 3. Conclusion in first 50 words?
-4. Cut every weasel word, fixable passive, replaceable jargon?
+4. Cut every weasel word, fixable passive, replaceable jargon, AI tell?
 5. Anything deletable without losing meaning? → delete it.
 6. Reader's next action clear and stated?
+7. Every number, name, date, and quote came from the user or their material?
 
-All six pass → draft ships.
+All seven pass → ships. Any fail → fix, then ship. Never a note to the user.
 
 ---
 
-## Output templates
+## On request only
 
-### Generative
+Never volunteered. User follows up with "show the ROAM," "show the scorecard," "what did you change," "flag the weasel words," "full rewrite / go harder," or "show your work" → load `references/diagnostics.md` and deliver that item only.
 
-```
-ROAM target: After reading this, [readers] will realize [objective],
-              so they will [action] and think of me as [impression].
+---
 
-[The draft itself, applying the 10 habits and matching format playbook.]
-```
+## Red flags
 
-Long tier → ask for missing ROAM before drafting. Don't guess.
-
-### Diagnostic
-
-```
-SCORECARD
-─────────────────────────────────────────
-Meaning ratio: NN%  (target: ≥70%)
-30-second check:
-  ✓/✗ Reader's time treated as more valuable
-  ✓/✗ Subject line carries the main message
-  ✓/✗ Conclusion in first 50 words
-  ✓/✗ Weasel/passive/jargon cut
-  ✓/✗ Nothing further to delete
-  ✓/✗ Reader's next action stated
-ROAM (inferred): R=… · O=… · A=… · M=…
-
-ISSUES (mapped to habits)
-─────────────────────────────────────────
-1. [#N HabitName] "before phrase" → "after phrase"
-2. [#N HabitName] "before phrase" → "after phrase"
-…
-
-REWRITE
-─────────────────────────────────────────
-[Clean version applying every fix above.]
-```
-
-Scorecard fixed + parseable. Issue list + rewrite are free-form.
+| Thought | Reality |
+|---|---|
+| "A quick note on what I changed will help" | They ask "what did you change" when they want it. Text only. |
+| "A few tips before they send it" | Tips are a follow-up. Draft only. |
+| "They said tighten, but it needs restructuring" | Light edit. They say "go harder" if they want more. |
+| "No number given, but a plausible one reads better" | Placeholder. Invented numbers are the one unforgivable thing. |
+| "Long piece; I'll draft with brackets instead of asking" | Long tier asks first. One message, guesses included. |
 
 ---
 

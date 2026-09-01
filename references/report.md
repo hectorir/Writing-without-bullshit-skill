@@ -10,7 +10,7 @@ Before drafting:
 
 > *After reading this, [decision-makers] will [understand what is happening], so they will [make a specific better-informed decision] and think of me as [a valuable source of analysis].*
 
-Pin it. Analysis drifts → return to target sentence.
+Pin it. Analysis drifts → return to target sentence. Long tier: ask for missing parts and source data before drafting; a report with no data is an outline.
 
 ## The story arc
 
@@ -86,3 +86,4 @@ Footnotes, methodology, bibliography, raw data — supports analysis without clo
 - **Graphics as afterthought** — bolted on at end, captions like "Chart 3: Sales by region." Plan with outline.
 - **Buried numbers** — most important stat on page 14. Pull forward.
 - **Bloat** — every section feels obligated to be long. Cut ruthlessly. 12-page report that reads > 40-page that doesn't.
+- **Invented data** — figures, sources, or quotes the user never supplied. `[N]` placeholder plus a `[Source: …]` placeholder. Never fabricate.

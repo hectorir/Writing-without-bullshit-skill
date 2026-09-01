@@ -12,22 +12,22 @@ Three sub-formats share one rule: brevity mandatory, first words do all work.
 
 > *After reading this, my followers will [embrace my message], share it, and think of me as [worth following].*
 
-### Per-platform notes
+### Per-platform length
 
-| Platform | Reach pattern | Brevity | Notes |
-|---|---|---|---|
-| Facebook | Highest reach potential | Short paragraphs OK | Algorithm rewards posts that get early engagement; the first hour matters |
-| X / Twitter | Works if you are already followed | Mandatory — every word counts | Threads work, but the first post must hook |
-| LinkedIn | Professional networks; lower-frequency reading | Medium | Best for substantive takes; people read here on purpose |
-| Instagram / Pinterest / Snapchat | Visual-first | Caption-only after the image | Outside the scope of writing-focused advice |
+| Platform | Length | Notes |
+|---|---|---|
+| X / Twitter | Every word counts | Thread OK; first post must stand alone |
+| LinkedIn | Medium; short paragraphs | Readers here read on purpose; substantive takes work |
+| Facebook | Short paragraphs | First line shows before "See more" |
+| Instagram | Caption after the image | Image carries it; caption is one line + hashtags |
 
-### Cross-platform rules
+### Rules
 
-- **Front-load every post.** First sentence is post.
-- **Include graphic.** Even simple. Visual posts outperform text-only on every platform.
-- **Post regularly.** Few times/week minimum. Sporadic accounts decay.
-- **Share useful things.** Self-promo allowed after track record of usefulness, not before.
-- **Listen and respond.** Engagement is medium, not just output.
+- **Front-load every post.** First sentence is the post. Rest is support.
+- **One idea per post.** Two ideas → two posts.
+- **Suggest a graphic.** Mark inline: `[Graphic: …]`. Visual posts outperform text-only everywhere.
+- **No engagement bait.** "Agree?" "Thoughts?" "Who else…" Ask a real question or none.
+- **Hashtags last, ≤3.** Platform-appropriate; none on X unless the tag is the event.
 
 ### Cold DM rules
 
@@ -35,7 +35,7 @@ No email → social DMs work. Keep tight:
 
 1. Identify yourself in one line
 2. State the ask plainly
-3. Invite a response
+3. One next step
 
 Long DMs get ignored. Cold-email rules in `email.md` apply, compressed.
 
@@ -52,15 +52,17 @@ Traditional press release = mostly waste. Modernize it.
   - ✅ "Acme acquires Beta for $40M to enter the European logistics market"
   - ❌ "Acme makes major announcement about future direction"
 - **Explain what + why it matters.** Two paras, three at most.
-- **Facts + numbers.** Cite sources + dates. Cut superlatives ("industry-leading," "world-class," "robust").
-- **Make it conversational.** Press picks up text people share.
+- **Facts + numbers, only the user's.** Cite sources + dates. No figure supplied → `[N]`. Cut superlatives ("industry-leading," "world-class," "robust").
+- **Quotes a human would say.** User supplied none → `[Quote from CEO: one sentence on why this matters to customers]`. Never write the quote for them.
+- **Conversational.** Press picks up text people share.
 
 ### Common failure modes
 
 - News buried under 3 paras of company background
-- Quotes that no human would say out loud
+- Quotes no human would say out loud
 - Adjective stacks: "industry-leading, best-in-class, next-generation platform"
-- No specific numbers or dates
+- Invented numbers or dates
+- Boilerplate "About Acme" longer than the news
 
 ---
 
@@ -75,6 +77,7 @@ Web page version of same discipline.
 - **Bullets and graphics, not walls of prose.** Scanners outnumber readers.
 - **Link to specs, don't dump them in.** Specs belong on a /specs page.
 - **Value before mechanism.** Readers care what changes for them; how it works comes after.
+- **Proof, not adjectives.** "Seamless," "powerful," "intuitive" say nothing. A number, a customer name, or a screenshot does. None supplied → placeholder.
 
 ### A good page shape
 
